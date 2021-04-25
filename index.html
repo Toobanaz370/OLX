@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container navbar-expand-lg">
+
+
+      <img id="logo" src="images/OLXlogo.png" alt="logo">
+
+      <input type="text" id="countrySelect" placeholder="Pakistan">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+
+        <form class="d-flex search-form">
+          <input class="form-control " type="search" placeholder="Find Cars, Mobile Phones and more..."
+            aria-label="Search">
+          <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
+        </form>
+
+        <button id="sellButton"> <i class="fas fa-plus"></i><strong> SELL</strong></button>
+
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="breadcrum-main">
+    <nav style="--bs-breadcrumb-divider: '';  " aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item categories"><a href="#">ALL CATEGORIES</a> <i class="fas fa-chevron-down"></i></li>
+        <li class="breadcrumb-item"><a href="#">Mobile Phones</a></li>
+        <li class="breadcrumb-item"><a href="#">Motorcycles</a></li>
+        <li class="breadcrumb-item"><a href="#">Houses</a></li>
+        <li class="breadcrumb-item"><a href="#">TV-Video-Audio</a></li>
+        <li class="breadcrumb-item"><a href="#">Tablets</a></li>
+        <li class="breadcrumb-item"><a href="#">Land & Plots</a></li>
+      </ol>
+    </nav>
+
+  </div>
+
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/add.jpg" class="d-block w-100" alt="add">
+      </div>
+
+    </div>
+  </div>
+
+  <div id="recomm">
+    <p>Fresh recommendations </p>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img class="card-img-top" src="images/laptop3.jpg" alt="laptop">
+          <div class="card-body">
+            <h3>Rs 40,999</h3>
+            <p class="card-text">Laptop</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/laptop.jpg" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h3>Rs 39,999</h3>
+            <p class="card-text">Infinix Zero 8 128gb Built </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img class="card-img-top" src="images/laptop2.jpg" alt="laptop">
+          <div class="card-body">
+            <h3>Rs 30,999 </h3>
+            <p class="card-text"> Laptop</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img class="card-img-top" src="images/laptop4.jpg" alt="laptop">
+          <div class="card-body">
+            <h3>Rs 39,999</h3>
+            <p class="card-text">Laptop</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/Samsung_M31.webp" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs. 41,999</h3>
+            <p class="card-text">Samsung M31 - 6.4" Super AMOLED Display </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/OPPO-F17-Ultra-Sleek-Leather.webp" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs. 34,999</h3>
+            <p class="card-text">OPPO F17 Ultra-Sleek Leather-Feel body design </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/Microsoft-13.5-inches-Multi-Touch-Surface-Laptop-3.jpg" class="card-img-top" alt="laptop">
+          <div class="card-body">
+            <h3>Rs. 155,999</h3>
+            <p class="card-text">Microsoft 13.5" Multi-Touch Surface Laptop 3</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/black-and-white-center-table-.jpg" class="card-img-top" alt="table">
+          <div class="card-body">
+            <h3>Rs. 13,999</h3>
+            <p class="card-text">Wooden Rectangular Black and White Center Table </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Islamabad</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/vivo-v5-plus-mobile-phone.jpg" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3> Rs. 32,699</h3>
+            <p class="card-text">Vivo V5 Plus Mobile Phone </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Multan</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/BQ-Mobile-BQ-5514L-Strike-Power-4G.jpg" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs. 19,999</h3>
+            <p class="card-text">BQ Mobile BQ-5514L Strike Power 4G </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/Samsung-Galaxy-A10s-.webp" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs. 59,799</h3>
+            <p class="card-text">Samsung Galaxy A10s</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Faisalabad</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/wooden-laptop-table.jpg" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs 5,999</h3>
+            <p class="card-text">Wooden Laptop Table (with out fan) </p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city"> Karachi</p>
+              <p>Mar 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/Asus.webp" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3> Rs. 139,999</h3>
+            <p class="card-text">Asus beats Acer to the ‘world’s lightest 14-inch laptop’ crown</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Lahore</p>
+              <p>Apr 19</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/butterfly-design-shiny-golden-center-table.jpg" class="card-img-top" alt="table">
+          <div class="card-body">
+            <h3>Rs. 9,999</h3>
+            <p class="card-text">Butterfly Design Shiny Golden Center Table</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Lahore</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/HDMI-Switch-3-Port-4K-2K-Switcher-Splitter-Box-Ultra-HD-for-DVD-HDTV-PS3-PS4.jpg" class="card-img-top" alt="switcher">
+          <div class="card-body">
+            <h3>Rs. 875</h3>
+            <p class="card-text">Hdmi Switch 3 Port 2K/4K</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">North Karachi, Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/wd_my_passport_hdd_hard_disk_25_inch_case_usb_301494074958.jpg" class="card-img-top" alt="usb">
+          <div class="card-body">
+            <h3>Rs. 800</h3>
+            <p class="card-text"> WD My Passport HDD Hard Disk 2.5 Inch Case USB 3.0</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Karachi</p>
+              <p>Feb 16</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-12 col-md col-lg-4 col-xl-3 col-xxl-3">
+        <div class="card" style="width: 18rem;">
+          <div class="icon">
+            <i class="far fa-heart"></i>
+          </div>
+          <img src="images/car-mobile-stand.jpg" class="card-img-top" alt="Mobile">
+          <div class="card-body">
+            <h3>Rs. 39,999</h3>
+            <p class="card-text">Car Clip Mobile Holder – 360 Degree Rotation</p>
+            <div class="last-search-card-date date-location">
+              <p id="area-city">Karachi</p>
+              <p>Apr 26</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+  </div>
+
+
+
+  <div class="btndiv">
+    <button class="loadmorebtn">Load more</button>
+  </div>
+
+
+  <div class="footer">
+    <div class="footer-inside-container">
+      <div class="footer-column">
+        <h6 class="footer-section-heading">POPULAR CATERGORIES</h6>
+        <a href="#" class="shop">Cars</a>
+        <a href="#" class="shop">Flates for rent</a>
+        <a href="#" class="shop">Watches</a>
+        <a href="#" class="shop">Jobs</a>
+        <a href="#" class="shop">Mobile Phones</a>
+      </div>
+  
+      <div class="footer-column">
+        <h6 class="footer-section-heading">TRENDING SEARCH</h6>
+        <a href="#" class="shop">Bike</a>
+        <a href="#" class="shop">Watches</a>
+        <a href="#" class="shop">Book</a>
+        <a href="#" class="shop">Dogs</a>
+      </div>
+  
+      <div class="footer-column">
+        <h6 class="footer-section-heading">ABOUT US</h6>
+        <a href="#" class="shop">About OLX Group</a>
+        <a href="#" class="shop">OLX Blog</a>
+        <a href="#" class="shop">Contact us</a>
+        <a href="#" class="shop">OLX for Business</a>
+      </div>
+  
+      <div class="footer-column">
+        <h6 class="footer-section-heading">OLX</h6>
+        <a href="#" class="shop">Help</a>
+        <a href="#" class="shop">Sitemap</a>
+        <a href="#" class="shop">Legal & Privacy Information</a>
+  
+      </div>
+  
+  
+      <div class="follow-us-main">
+        <h6 class="footer-section-heading">FOLLOW US</h6>
+        <div class="social-links">
+          <a href="#"> <i class="fab fa-facebook-f">&nbsp;</i></a>
+          <a href="#"> <i class="fab fa-twitter"></i></a>
+          <a href="#"> <i class="fab fa-instagram"></i></a>
+          <a href="#"> <i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+  
+    </div>
+
+
+
+  </div>
+  <footer>
+    <a href="#"></a> <span class="text1"> Other Countries</span>
+    India-South Africa-Indonesia</a>
+
+    <section class="text2">
+      <span id="text2">Free Classified in Pakistan</span>
+      . &copy; 2006-2021 OLX
+    </section>
+  </footer>
+
+
+
+
+
+</body>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+</html>
